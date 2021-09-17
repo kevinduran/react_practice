@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(36, 36, 36);
+  height: 69vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.time{
+  font-size: 3em;
+  color:rgb(24, 119, 24);
+}
