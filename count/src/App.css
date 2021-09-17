@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 69vh;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.container{
+    text-align: center;
+    height: 500px;
+    width: 444px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.number{
+    color: green;
+    font-size: 10em;
+}
+.btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    color: green;
+    font-size: 5em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
