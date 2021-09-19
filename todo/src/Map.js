@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 export default function Map() {
-    const months = ['jan','feb','march','april','may','june','july','august']
+    const name = ['kevin','joe','kim','james']
+
     return (
-        <div>
-            {months.map(month=><li>{month}</li>)}
-        </div>
+        
+        name.map(person => <li>{person}</li>)
+    
     )
 }
