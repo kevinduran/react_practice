@@ -1,7 +1,26 @@
 body{
-  background-color: rgb(49, 48, 48);
+  background-color:#9e9c9c;
+}
+
+nav{
   display: flex;
-  height: 100vh;
-  justify-content: center;
+  justify-content: space-between;
+  height: 10vh;
   align-items: center;
+}
+div{
+  padding: 0 5px
+}
+ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+li{
+  list-style: none;
+  font-size: 1.1em;
+  padding: 0 15px;
+
+}
+.logoImage{
+  height: 10vh;
 }
