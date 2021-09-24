@@ -7,14 +7,18 @@ const Nav = () => {
        <nav>
            <div className="logoContainer"><img className="logoImage" src={logo} alt="logo cyborg"></img></div>
            <div className="linkContainer">
-            <ul>
-                <li>kill all humans</li>
-                <li>make cure for cancer</li>
-                <li>start WW3</li>
-            </ul>
+                <ul className = "mainLink">
+                    <li className = "mainLinkItem">kill all humans</li>
+                    <li className = "mainLinkItem">make cure for cancer</li>
+                    <li className = "mainLinkItem" > start WW3</li>
+                </ul>
            </div> 
-           <div className="hamburger"></div>
-           <div className="overlayMenu"></div>
+           <div className="hamburgerContainer">
+               <div className="line"></div>
+               <div className="line"></div>
+               <div className="line"></div>
+           </div>
+           <div className="overlayContainer"></div>
        </nav>
     )
 }
