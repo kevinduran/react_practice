@@ -6,11 +6,13 @@ export default function App() {
    
     
     const fetchMyData = ()=>{
+        const myOutput = document.querySelector('.output');
         fetch('https://jsonplaceholder.typicode.com/todos/1')
             .then(res=>res.json())
             .then(response=>{
                 console.log(response);
-            });    
+                myOutput.innerHTML = JSON.stringify(response); 
+            }); 
     }   
 
     return (
