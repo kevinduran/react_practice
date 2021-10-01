@@ -16,3 +16,15 @@ export default function App() {
         </div>
     )
 }
+
+
+
+
+
+
+//React JS MINI PROJECTS
+    //--random person generator (use API)
+    //--score keeper
+    //--clock
+    //--todo list   
+    //--weather app  
