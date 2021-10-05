@@ -1,0 +1,25 @@
+
+body{
+  background-color: rgb(29, 28, 28);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: green;
+}
+
+input{
+  border: 2px solid green;
+  background-color: transparent;
+  color: green;
+}
+input:focus{
+  outline: none;
+}
+button{
+  border: 2px solid green;
+  background-color: transparent;
+  color: green;
+  margin-left: 5px;
+  cursor: pointer;
+}

@@ -1,62 +1,50 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './App.css'
 export default function App() {
+    const[time, setTime] = useState('')
+    const[number, setNumber] = useState(0)
+
+    setInterval(()=>{
+        setTime(new Date().toLocaleTimeString());
+    },1000)
     
-    const people =[
-        {
-            name:'kevin',
-            age:30,
-            weight:170,
-            hobby:'soccer'
-        },
-        {
-            name:'joe',
-            age:31,
-            weight:150,
-            hobby:'video games'
-        },
-        {
-            name:'kim',
-            age:28,
-            weight:120,
-            hobby:'tik tok'
-        },
-        {
-            name:'james',
-            age:7,
-            weight:70,
-            hobby:'soccer'
-        }
-    ]
+   const add = ()=>{
+    setNumber(number + 1)
+   } 
+   const sub = ()=>{
+    setNumber(number - 1)
+   } 
 
-
- const greeting = people.map((x)=>{
-      return `hello, my name is ${x.name} and I like to play ${x.hobby}`
-  })
-
-  const greetTeam = people.filter((x)=>{
-    return x.hobby.startsWith('s')
-  })
-  const greetTeamWithWords = greetTeam.map(x=>x.name)
-
-  console.log(`${greetTeamWithWords.toString()} likes to play soccer `)
-  console.log(greeting)
 
     return (
         <>
-           hello, friend
+            <div>
+                {time}
+            </div>
+            <div>
+                <div>{number}</div>
+                <button 
+                className="count"
+                onClick={add}
+                >+</button>
+                <button 
+                className="count"
+                onClick={sub}
+                >-</button>
+            </div>
         </>
     )
+
+   
 }
 
 
 
 
 
-
 //React JS MINI PROJECTS
-    //--random person generator (use API)
     //--clock
-    //--counter
-    //--todo list   
-    //--weather app (use API)
+    //--count
+    //--todo 
+    //--weather (use API)
+    //--random person generator (use API)

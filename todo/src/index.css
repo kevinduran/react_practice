@@ -1,58 +1,13 @@
-body{
-  background-color:#9e9c9c;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-nav{
-  display: flex;
-  justify-content: space-between;
-  height: 10vh;
-  width: 100%;
-  align-items: center;
-}
-.logoContainer{
-  padding: 0 5px;
-  position: relative;
-  left: 2%;
-}
-.logoImage{
-  height: 10vh;
-}
-N
-.mainLink{
-  display: flex;
-  justify-content: space-evenly;
-}
-.mainLinkItem{
-  list-style: none;
-  font-size: 1.1em;
-  padding: 0 15px;
-}
-.hamburgerContainer{
-  height: 10vh;
-  width: 50px; 
-  display: none;
-}
-.line{
-  height: 1px;
-  width: 50px;
-  border-bottom: 3px solid red;
-  padding-bottom: 20px;
-}
-.overlayContainer{
-  display: none;
-}
-@media only screen and (max-width:600px){
-  nav{
-    display: flex;
-    justify-content: space-between;
-  }
-  .linkContainer{
-    display: none;
-  }
-  .hamburgerContainer{
-    display:block;
-    position: absolute;
-    right: 5%;
-  }
-  
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
