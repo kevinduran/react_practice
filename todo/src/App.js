@@ -6,6 +6,7 @@ function App() {
   
   const addTodo = () =>{
     setTodo(document.getElementById('input').value);
+    document.getElementById('input').value = ''
   }
 
   return (
