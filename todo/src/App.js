@@ -3,10 +3,15 @@ import './App.css';
 
 function App() {
   const [todo,setTodo] = useState('');
-  const myTodo = [];
   
   const addTodo = () =>{
-    setTodo([...todo,<div>{document.getElementById('input').value}</div>]);
+    setTodo([...todo,
+      <div className="todoDiv">
+        <div>{document.getElementById('input').value}</div>
+        <button>x</button>
+      </div>
+      
+    ]);
     document.getElementById('input').value = ''
   }
 
