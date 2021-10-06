@@ -8,13 +8,16 @@ function App() {
     setTodo([...todo,
       <div className="todoDiv">
         <div>{document.getElementById('input').value}</div>
-        <button>x</button>
+        <button onClick={removeTodo}>x</button>
       </div>
       
     ]);
     document.getElementById('input').value = ''
   }
 
+  const removeTodo = ()=>{
+    setTodo(...todo)
+  }
   return (
     <div className="App">
       <input id="input"></input>
