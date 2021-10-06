@@ -6,7 +6,7 @@ function App() {
   const myTodo = [];
   
   const addTodo = () =>{
-    setTodo([...todo, document.getElementById('input').value]);
+    setTodo([...todo,<div>{document.getElementById('input').value}</div>]);
     document.getElementById('input').value = ''
   }
 
@@ -21,4 +21,3 @@ function App() {
 
 export default App;
 
-// you need to make an array to hold todo, map , and display them 
