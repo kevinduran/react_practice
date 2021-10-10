@@ -1,31 +1,29 @@
+import './App.css'
 import React,{useState} from 'react'
-import './App.css';
 
-function App() {
-  const [todo,setTodo] = useState('');
-  
-  const addTodo = () =>{
+export default function App() {
+
+  const [todo, setTodo] = useState('');
+
+  const addTodo = ()=>{
     setTodo([...todo,
-      <div className="todoDiv">
-        <div>{document.getElementById('input').value}</div>
-        <button onClick={removeTodo}>x</button>
-      </div>
-      
-    ]);
-    document.getElementById('input').value = ''
+    <div>
+      {document.getElementById('input').value}
+      <button onClick={removeTodo}>x</button>
+    </div>
+    ])
+    document.getElementById('input').value= ''
   }
 
-  const removeTodo = ()=>{
-    setTodo(...todo)
+  const removeTodo = (e) =>{
+    setTodo([...todo])
   }
+
   return (
-    <div className="App">
+    <div>
       <input id="input"></input>
       <button onClick={addTodo}>test</button>
-      <div>{todo}</div>
+      <div className="todoDiv">{todo}</div>
     </div>
-  );
+  )
 }
-
-export default App;
-

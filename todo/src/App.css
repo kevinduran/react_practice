@@ -26,4 +26,5 @@ button{
 
 .todoDiv{
   display: flex;
+  flex-direction: column;
 }
