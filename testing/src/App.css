@@ -1,3 +1,7 @@
+*{
+  font-family: 'Roboto Mono', monospace;
+}
+
 body{
   background-color: rgb(22, 22, 22);
   display: flex;
@@ -12,8 +16,13 @@ body{
   height: 50px;
   width: 50px;
   padding: 5em;
+  overflow: hidden;
+  
 }  
 
+
+
+/* COUNT */
 .count{
     background-color: transparent;
     color: green;
@@ -22,3 +31,30 @@ body{
     margin: 1px;
     width: 25px;
   }
+.btnContainer{
+  display: flex;
+  
+}  
+
+
+/* TODO */
+.todoContainer{
+  display: flex;
+}
+
+.todoInput{
+  background-color: transparent;
+  border: 1px solid green;
+  width: 69px;
+  color: green;
+  font-size: 15px;
+}
+.todoInput:focus{
+  outline: none;
+}
+.btn{
+  background-color: transparent;
+  color: green;
+  border: 1px solid green;
+  cursor: pointer;
+}

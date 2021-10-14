@@ -16,14 +16,16 @@ export default function Count() {
     return (
         <div className = "bigBoy">
                 <div>{number}</div>
-                <button 
-                className="count"
-                onClick={add}
-                >+</button>
-                <button 
-                className="count"
-                onClick={sub}
-                >-</button>
+                <div className="btnContainer">
+                    <button 
+                    className="count"
+                    onClick={add}
+                    >+</button>
+                    <button 
+                    className="count"
+                    onClick={sub}
+                    >-</button>
+                </div>
         </div>
     )
 }
