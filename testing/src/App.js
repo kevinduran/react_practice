@@ -9,7 +9,6 @@ export default function App() {
 
     return (
         <>
-            
             <h1>REACT PRACTICE</h1>
             <Time/>
             <Count/>
