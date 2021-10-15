@@ -4,6 +4,7 @@ import Time from './Time.js'
 import Count from './Count.js'
 import Todo from './Todo.js'
 import Weather from './Weather.js'
+import Person from './Person.js'
 
 export default function App() {
  
@@ -15,6 +16,7 @@ export default function App() {
             <Count/>
             <Todo/>
             <Weather/>
+            <Person/>
         </div>
     )
 

@@ -18,11 +18,11 @@ export default function Count() {
                 <div>{number}</div>
                 <div className="btnContainer">
                     <button 
-                    className="count"
+                    className="count btn"
                     onClick={add}
                     >+</button>
                     <button 
-                    className="count"
+                    className="count btn"
                     onClick={sub}
                     >-</button>
                 </div>
