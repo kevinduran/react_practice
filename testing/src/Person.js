@@ -8,19 +8,24 @@ export default function Person() {
         .then(res=> res.json())
         .then(data=>{
             setPerson(data.results[0].picture.thumbnail)
-            setName(data.results[0].name.first)
+            setName(`hello ${data.results[0].name.first}.`)
         })
         
     }
 
     return (
         <div className="bigBoy">
-            <button 
-                className="friendBtn btn"
-                onClick={makeFriend}
-            >hello</button>
-            hello, {name}
-            <img alt="" src={person}/>.
+            <div className="personContainer">
+                <button 
+                    className="friendBtn btn"
+                    onClick={makeFriend}
+                >
+                    hi
+                </button>
+                {name}
+                <img alt="" src={person}/>
+            </div>
+           
         </div>
     )
 }

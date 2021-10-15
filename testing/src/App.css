@@ -40,6 +40,8 @@ body{
 /* TODO */
 .todoContainer{
   display: flex;
+  position: relative;
+  left: -25px;
 }
 
 .todoInput{
@@ -63,4 +65,13 @@ body{
 }
 .todoItem{
   display: flex;
+  position: relative;
+  left: -20px;
+}
+
+/* PERSON */
+
+.personContainer{
+  position:relative;
+  top: -50px;
 }
