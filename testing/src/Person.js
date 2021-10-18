@@ -8,7 +8,7 @@ export default function Person() {
         .then(res=> res.json())
         .then(data=>{
             setPerson(data.results[0].picture.thumbnail)
-            setName(`hello ${data.results[0].name.first}.`)
+            setName(`${data.results[0].name.first} created`)
         })
         
     }
@@ -20,12 +20,11 @@ export default function Person() {
                     className="friendBtn btn"
                     onClick={makeFriend}
                 >
-                    hi
+                    create life
                 </button>
-                {name}
-                <img alt="" src={person}/>
-            </div>
-           
+                <div className="space">{name}</div>
+                <div className="space"><img alt="" src={person}/></div>  
+            </div>          
         </div>
     )
 }

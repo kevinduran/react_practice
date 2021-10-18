@@ -29,7 +29,7 @@ export default function Todo() {
                 <input
                     className="todoInput"            
                 />
-                <button onClick={addTodo} className="btn">add</button>
+                <button onClick={addTodo} className="btn">+</button>
             </div>
 
             <div>{todo}</div>

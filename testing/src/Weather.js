@@ -10,8 +10,10 @@ export default function Weather() {
         })
     
     return (
-        <div className="bigBoy" >
-            {temp}&deg;
+        <div className="bigBoy" >     
+            <div>Ventura, CA</div>
+            <br></br>
+            <div>{temp}&deg;</div> 
         </div>
     )
 }

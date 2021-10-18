@@ -11,10 +11,6 @@
 body{
   background-color: rgb(22, 22, 22);
   color: green;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-
 }
 
 .bigBoy{
@@ -24,10 +20,17 @@ body{
   margin: 5px;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
   
 }  
+.titleColor{
+  text-align: center;
+}
+
+
 
 /* COUNT */
 .count{
@@ -47,8 +50,8 @@ body{
 /* TODO */
 .todoContainer{
   display: flex;
-  position: relative;
-  left: -25px;
+  position:absolute;
+  top: 25px;
 }
 
 .todoInput{
@@ -71,16 +74,19 @@ body{
   background-color: rgba(12, 136, 12, 0.219);
 }
 .todoItem{
-  display: flex;
-  position: relative;
-  left: -20px;
+  
 }
 
 /* PERSON */
 
 .personContainer{
-  position:relative;
-  top: -50px;
+  position:absolute;
+  top: 30px;
+  text-align: center;
+  
+}
+.space{
+  margin: 10px 0;
 }
 
 /* HAMBURGER */
