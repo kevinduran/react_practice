@@ -2,7 +2,12 @@
   font-family: 'Roboto Mono', monospace;
   margin: 0;
 }
-
+.theOne{
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
 body{
   background-color: rgb(22, 22, 22);
   color: green;
@@ -14,11 +19,13 @@ body{
 
 .bigBoy{
   border: 3px solid green;
-  height: 50px;
-  width: 50px;
-  padding: 5em;
+  height: 200px;
+  width: 200px;
   margin: 5px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
 }  
 
@@ -74,4 +81,15 @@ body{
 .personContainer{
   position:relative;
   top: -50px;
+}
+
+/* HAMBURGER */
+.hamburgerBigContainer{
+  display: block;
+}
+
+.line{
+  width: 10px;
+  height: 2px;
+  border-bottom: 1px solid red;
 }

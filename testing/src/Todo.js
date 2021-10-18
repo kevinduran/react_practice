@@ -14,7 +14,6 @@ export default function Todo() {
         setTodo([...todo,
             <div 
                 className="todoItem"
-                // need a "key"
             >
                 {document.querySelector('.todoInput').value}
                 <button className="btn" onClick={remove}>x</button>
