@@ -95,11 +95,40 @@ body{
   margin: 5px 0 0 5px;
   width: fit-content;
   padding: 1px 7px 10px;
+  position: absolute;
   cursor: pointer;
+  z-index: 2;
 }
 .line{
   width: 25px;
   height: 1px;
   padding: 3px 0;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid green;
 }
+.burgerMenu{
+  position: absolute;
+  background-color: rgba(66, 102, 66, 0.158);
+  border: 1px solid red;
+  height: 196px;
+  width: 197px;
+  top: 1px;    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 1s ease all;
+  
+}
+.burgerMenu ul {
+  position: relative;
+  left: -20px;
+  width: inherit;
+  text-align: center;
+}
+.burgerMenu li{
+  list-style: none;
+  height: 30px;
+  border: 1px solid red;
+  width: 100%;
+}
+

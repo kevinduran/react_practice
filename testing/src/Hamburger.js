@@ -8,6 +8,13 @@ export default function Hamburger() {
                     <div className="line"></div>
                     <div className="line"></div>
                 </div>
+                <div className="burgerMenu">
+                    <ul>
+                        <li>death laser</li>
+                        <li>captain punch</li>
+                        <li>hyperbeam</li>
+                    </ul>
+                </div>
             </div>
     )
 }
