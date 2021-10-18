@@ -8,7 +8,7 @@ export default function Person() {
         .then(res=> res.json())
         .then(data=>{
             setPerson(data.results[0].picture.thumbnail)
-            setName(`${data.results[0].name.first} created`)
+            setName(`new human:${data.results[0].name.first} created.`)
         })
         
     }
