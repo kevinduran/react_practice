@@ -1,9 +1,16 @@
 import React from 'react'
 
 export default function Hamburger() {
+
+    const burgerMenu = document.querySelector('.burgerMenu');
+    
+    const activate = () => {
+        burgerMenu.classList.add('activeBurgerMenu')
+    }
+
     return (    
             <div className="bigBoy hamburgerBigContainer">
-                <div className="burger">
+                <div className="burger" onClick={activate}>
                     <div className="line"></div>
                     <div className="line"></div>
                     <div className="line"></div>
@@ -16,6 +23,6 @@ export default function Hamburger() {
                     </ul>
                 </div>
             </div>
-            
+
     )
 }
