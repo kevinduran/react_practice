@@ -111,13 +111,25 @@ body{
   border: 1px solid red;
   height: 196px;
   width: 197px;
+  top: -200px;    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 1s ease all;
+}
+.activeBurgerMenu{
+  position: absolute;
+  background-color: rgba(66, 102, 66, 0.158);
+  border: 1px solid red;
+  height: 196px;
+  width: 197px;
   top: 1px;    
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: 1s ease all;
-  
 }
 .burgerMenu ul {
   position: relative;
