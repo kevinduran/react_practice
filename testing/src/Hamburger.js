@@ -2,11 +2,14 @@ import React from 'react'
 
 export default function Hamburger() {
 
-    const burgerMenu = document.querySelector('.burgerMenu');
     
     const activate = () => {
-        burgerMenu.classList.add('activeBurgerMenu')
-    }
+        const burgerMenu = document.querySelector('.burgerMenu');
+        if(burgerMenu.classList !== 'activeBurgerMenu'){
+            burgerMenu.classList.toggle('activeBurgerMenu')
+        }
+        
+    }    
 
     return (    
             <div className="bigBoy hamburgerBigContainer">
