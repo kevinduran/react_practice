@@ -53,7 +53,12 @@ body{
   position:absolute;
   top: 25px;
 }
-
+.todoItemContainer{
+  height:140px;
+  width: 200px;
+  position: relative;
+  top:25px;
+}
 .todoInput{
   background-color: transparent;
   border: 1px solid green;
@@ -63,6 +68,9 @@ body{
 }
 .todoInput:focus{
   outline: none;
+}
+.todoItem{
+  padding: 2px 5px;
 }
 .btn{
   background-color: transparent;
@@ -108,7 +116,6 @@ body{
 .burgerMenu{
   position: absolute;
   background-color: rgba(66, 102, 66, 0.158);
-  border: 1px solid red;
   height: 196px;
   width: 197px;
   top: -200px;    
@@ -116,7 +123,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: 1s ease all;
+  transition: 0.69s ease all;
 }
 .activeBurgerMenu{
   position: absolute;
@@ -130,8 +137,14 @@ body{
 }
 .burgerMenu li{
   list-style: none;
-  height: 30px;
-  border: 1px solid red;
+  height: 40px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.burgerMenu li:hover{
+  background-color: rgba(0, 128, 0, 0.24);
 }
 

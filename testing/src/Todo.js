@@ -32,7 +32,7 @@ export default function Todo() {
                 <button onClick={addTodo} className="btn">+</button>
             </div>
 
-            <div>{todo}</div>
+            <div className="todoItemContainer">{todo}</div>
         </div>
     )
 }
