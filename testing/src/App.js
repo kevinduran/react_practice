@@ -7,6 +7,7 @@ import Todo from './Todo.js'
 import Weather from './Weather.js'
 import Person from './Person.js'
 import Hamburger from './Hamburger'
+import Dark from './Dark'
 
 export default function App() {
  
@@ -20,6 +21,7 @@ export default function App() {
             <Weather/>
             <Person/>
             <Hamburger/>
+            <Dark/>
         </div>
     )
 
