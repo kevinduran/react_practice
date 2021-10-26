@@ -159,14 +159,22 @@ body{
   z-index: -1;
 }
 .hell img{
-  height: 269px !important;
+  height: 269px;
+}
+.hellNo{
+  display: none;
 }
 
-
+.red{
+  text-align: center;
+  color: red;
+  padding-bottom: 5px;
+}
 /* The switch - the box around the slider */
 .switch {
   position: relative;
   display: inline-block;
+  top: 0;
   width: 50px;
   height: 24px;
 }
@@ -178,6 +186,10 @@ body{
   height: 0;
 }
 
+.sliderToggleContainer{
+  position: relative;
+  top: -60px;
+}
 /* The slider */
 .slider {
   position: absolute;
@@ -213,6 +225,8 @@ input:checked + .slider:before {
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
+
+
 
 /* Rounded sliders */
 .slider.round {
