@@ -158,13 +158,15 @@ body{
   position:absolute;
   z-index: -1;
 }
+
 .hell img{
   height: 269px;
-}
-.hellNo{
   display: none;
 }
 
+.hellYes{
+  display: block !important;
+}
 .red{
   text-align: center;
   color: red;
