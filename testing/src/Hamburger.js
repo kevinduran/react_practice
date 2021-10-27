@@ -1,12 +1,12 @@
-import React,{useState} from 'react'
+import React from 'react'
 
 export default function Hamburger() {
-    const [active,setActive]= useState([])
+    
     
     const activate = () => {
         const burgerMenu = document.querySelector('.burgerMenu');
         if(burgerMenu.classList !== 'activeBurgerMenu'){
-           setActive( burgerMenu.classList.toggle('activeBurgerMenu'));
+           burgerMenu.classList.toggle('activeBurgerMenu')
         }
         
     }    

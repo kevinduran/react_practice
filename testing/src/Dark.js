@@ -3,10 +3,11 @@ import logo from './hell.gif'
 
 export default function Darks() {
     
-    const [hell, setHell]= useState('')
+    const [hell, setHell]= useState("hellNo")
     
     const addHell = () =>{
-     setHell(document.querySelector('.hell img').classList.toggle('hellYes'))
+     setHell("hellYes")
+     console.log('test')
     }
 
 
