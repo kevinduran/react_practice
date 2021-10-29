@@ -35,6 +35,10 @@ body{
 
 
 
+
+
+
+
 /* COUNT */
 .count{
     background-color: transparent;
@@ -48,6 +52,11 @@ body{
   display: flex;
   
 }  
+
+
+
+
+
 
 
 /* TODO */
@@ -97,6 +106,11 @@ body{
   margin: 10px 0;
 }
 
+
+
+
+
+
 /* HAMBURGER */
 .hamburgerBigContainer{
   display: block;
@@ -115,7 +129,25 @@ body{
   height: 1px;
   padding: 3px 0;
   border-bottom: 1px solid green;
+  transition: 0.3s ease all;
+
 }
+
+.line1-active{
+  transition: 0.2s ease all;
+  width: 0;
+}
+.line2-active{
+  transition: 0.3s ease all;
+  transform: rotate(-50deg) translateY(1px) translateX(-9px);
+
+}
+.line3-active{
+  transition: 0.3s ease all;
+  transform: rotate(50deg) translateY(0px) translateX(0px);
+
+}
+
 .burgerMenu{
   position: absolute;
   background-color: rgba(66, 102, 66, 0.158);
@@ -151,8 +183,16 @@ body{
   background-color: rgba(0, 128, 0, 0.24);
 }
 
-/* DARK */
 
+
+
+
+
+
+
+
+
+/* DARK */
 
 .hell{
   position:absolute;

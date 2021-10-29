@@ -12,9 +12,7 @@ export default function Todo() {
 
     const addTodo = () => {
         setTodo([...todo,
-            <div 
-                className="todoItem"
-            >
+            <div className="todoItem">
                 {document.querySelector('.todoInput').value}
                 <button className="btn" onClick={remove}>x</button>
             </div>

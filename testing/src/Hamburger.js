@@ -4,6 +4,15 @@ export default function Hamburger() {
     
     
     const activate = () => {
+        const line1 = document.querySelector('.line1')
+        const line2 = document.querySelector('.line2')
+        const line3 = document.querySelector('.line3')
+
+        line1.classList.toggle('line1-active')
+        line2.classList.toggle('line2-active')
+        line3.classList.toggle('line3-active')
+
+
         const burgerMenu = document.querySelector('.burgerMenu');
         if(burgerMenu.classList !== 'activeBurgerMenu'){
            burgerMenu.classList.toggle('activeBurgerMenu')
@@ -14,9 +23,9 @@ export default function Hamburger() {
     return (    
             <div className="bigBoy hamburgerBigContainer">
                 <div className="burger" onClick={activate}>
-                    <div className="line"></div>
-                    <div className="line"></div>
-                    <div className="line"></div>
+                    <div className="line line1"></div>
+                    <div className="line line2"></div>
+                    <div className="line line3"></div>
                 </div>
                 <div className="burgerMenu">
                     <ul>
