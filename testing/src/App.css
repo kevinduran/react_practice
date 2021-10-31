@@ -280,3 +280,22 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+
+
+
+
+
+
+
+/* Bored */
+
+.btn-top{
+  position: absolute;
+  top: 25px;
+}
+
+.boredOutput{
+  padding: 25px;
+  font-size: 1.1em;
+}

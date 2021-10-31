@@ -10,7 +10,6 @@ export default function Darks() {
         hell === "hellNo" ? setHell("hellYes") : setHell("hellNo");
     }
     
-
     return (
         <div className="bigBoy">
             <div className="sliderToggleContainer"> 
