@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 
 export default function Bored() {
     const [output, setOutput] = useState('')
@@ -15,7 +15,7 @@ export default function Bored() {
     return (
         <div class="bigBoy">
             <button className="btn btn-top" onClick={fun}>i'm bored</button>
-            <div className="boredOutput">{output}</div>
+            <div className="boredOutput">{output}. </div>
         </div>
     )
 }
