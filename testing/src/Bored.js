@@ -15,7 +15,7 @@ export default function Bored() {
     return (
         <div class="bigBoy">
             <button className="btn btn-top" onClick={fun}>i'm bored</button>
-            <div className="boredOutput">{output}. </div>
+            <div className="boredOutput">{output}</div>
         </div>
     )
 }
