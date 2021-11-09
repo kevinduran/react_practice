@@ -299,3 +299,11 @@ input:checked + .slider:before {
   padding: 25px;
   font-size: 1.1em;
 }
+
+/* Test */
+
+.ppl{
+  font-size: 7px;
+  height: 200px;
+  width:200px;
+}
