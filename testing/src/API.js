@@ -1,18 +1,20 @@
-import React, {useState}  from 'react'
+import React, {useState, useEffect}  from 'react'
 
 export default function API() {
     const [ppl, getPpl] = useState('hello')
     
-    const addPpl = ()=>{
+    useEffect(() => {
         fetch('https://randomuser.me/api')
         .then(res=> res.json())
-        .then(data=>getPpl(JSON.stringify(data.results[0])))
+        .then(data=>getPpl(JSON.stringify(data.results[0]), console.log(data.results[0].name.first)))
 
-    }
+    },[])
+       
+ 
 
 
     return (
-        <div className="bigBoy" onClick={addPpl}>
+        <div className="bigBoy" >
           <div className="ppl">
           {ppl}    
           </div> 
