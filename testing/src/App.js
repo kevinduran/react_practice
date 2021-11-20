@@ -9,8 +9,6 @@ import Person from './Person.js'
 import Hamburger from './Hamburger'
 import Dark from './Dark'
 import Bored from './Bored'
-import API from './API'
-import Test from './Test'
 
 export default function App() {
  
@@ -26,8 +24,6 @@ export default function App() {
             <Hamburger/>
             <Dark/>
             <Bored/>
-            <API/>
-            <Test/>
         </div>
     )
 

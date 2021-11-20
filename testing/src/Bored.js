@@ -9,7 +9,6 @@ export default function Bored() {
         .then(data=> {
             setOutput(data.activity)
         })
-        
     }
 
     return (

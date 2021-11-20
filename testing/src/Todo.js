@@ -5,9 +5,7 @@ export default function Todo() {
 
     const remove = () => {
         console.log('removed')
-        //need to loop through list of todo
-        //identify which one is ours
-        //somehow remove it 
+       
     }
 
     const addTodo = () => {
@@ -36,4 +34,3 @@ export default function Todo() {
 }
 
 
-//NOT SOLVED
