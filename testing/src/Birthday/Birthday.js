@@ -5,7 +5,12 @@ import birthdayData from './birthdayData'
 export default function Birthday() {
     return (
         <div className="bigBoy">
-            {birthdayData.map(key => {console.log(key)})}
+            {birthdayData.map(key => {
+               return <div>
+                   {key.name}
+                   
+                   </div> 
+            })}
         </div>
     )
 }
