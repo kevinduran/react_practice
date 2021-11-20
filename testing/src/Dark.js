@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import logo from './hell.gif'
+import logo from './assets/hell.gif'
 
 export default function Darks() {
     
