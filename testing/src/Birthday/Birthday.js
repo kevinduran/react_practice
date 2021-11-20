@@ -6,10 +6,7 @@ export default function Birthday() {
     return (
         <div className="bigBoy">
             {birthdayData.map(key => {
-               return <div>
-                   {key.name}
-                   
-                   </div> 
+               return <p>{key.name}: {key.age}</p>     
             })}
         </div>
     )
