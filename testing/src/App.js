@@ -8,7 +8,7 @@ import Weather from './Weather.js'
 import Person from './Person.js'
 import Hamburger from './Hamburger'
 import Dark from './Dark'
-import Bored from './Bored'
+import Bored from './Bored/Bored'
 import Birthday from  './Birthday/Birthday'
 export default function App() {
  

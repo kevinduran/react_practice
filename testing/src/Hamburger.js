@@ -4,14 +4,9 @@ export default function Hamburger() {
     
     
     const activate = () => {
-        const line1 = document.querySelector('.line1')
-        const line2 = document.querySelector('.line2')
-        const line3 = document.querySelector('.line3')
-
-        line1.classList.toggle('line1-active')
-        line2.classList.toggle('line2-active')
-        line3.classList.toggle('line3-active')
-
+        document.querySelector('.line1').classList.toggle('line1-active')
+        document.querySelector('.line2').classList.toggle('line2-active')
+        document.querySelector('.line3').classList.toggle('line3-active')
 
         const burgerMenu = document.querySelector('.burgerMenu');
         if(burgerMenu.classList !== 'activeBurgerMenu'){
@@ -35,7 +30,5 @@ export default function Hamburger() {
                     </ul>
                 </div>
             </div>
-
-
     )
 }

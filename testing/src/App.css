@@ -307,3 +307,15 @@ input:checked + .slider:before {
   height: 200px;
   width:200px;
 }
+
+
+
+
+
+/* Birthday */
+
+.birthdayTotal{
+  text-align: center;
+  font-size: 11px;
+  margin-top: 10px;
+}
