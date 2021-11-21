@@ -300,12 +300,20 @@ input:checked + .slider:before {
   font-size: 1.1em;
 }
 
-/* Test */
+/* Bored */
 
-.ppl{
-  font-size: 7px;
-  height: 200px;
-  width:200px;
+.loader {
+  border: 5px solid #013a14; 
+  border-top: 5px solid #047c3a; 
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 
