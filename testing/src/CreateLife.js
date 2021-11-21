@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-export default function Person() {
+export default function CreateLife() {
     const [person, setPerson] = useState('')
     const[name, setName] = useState('')
     const makeFriend = () => {

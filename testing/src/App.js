@@ -5,9 +5,9 @@ import Time from './Time.js'
 import Count from './Count.js'
 import Todo from './Todo.js'
 import Weather from './Weather.js'
-import Person from './Person.js'
+import CreateLife from './CreateLife'
 import Hamburger from './Hamburger'
-import Dark from './Dark'
+import Hell from './Hell'
 import Bored from './Bored/Bored'
 import Birthday from  './Birthday/Birthday'
 export default function App() {
@@ -20,11 +20,11 @@ export default function App() {
             <Count/>
             <Todo/>
             <Weather/>
-            <Person/>
+            <CreateLife/>
             <Hamburger/>
-            <Dark/>
+            <Hell/>
             <Bored/>
-            <Birthday />
+            <Birthday/>
         </div>
     )
 
