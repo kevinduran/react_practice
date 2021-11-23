@@ -22,12 +22,12 @@ export default  [
             {
                 id:5,
                 name:"becky",
-                age: 52
+                age: 55
             },
             {
                 id:6,
                 name:"beto",
-                age: 55
+                age: 57
             }
         ]
 
