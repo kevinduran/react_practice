@@ -16,7 +16,7 @@ export default function Birthday() {
                         console.log(a.from(b) )// "a day ago"
 
 
-                        !myBirthday.toString()  ? console.log('happy bday') : console.log(`${number} days until your bday`)
+                        //!myBirthday.toString()  ? console.log('happy bday') : console.log(`${number} days until your bday`)
                                       
                         return (
                             <div className="birthdayPerson" >
