@@ -321,9 +321,14 @@ input:checked + .slider:before {
 
 
 /* Birthday ---------------------------------------------------------------------*/
+.birthdayPerson{
+  font-size: 0.9em;
+}
 
-.birthdayTotal{
-  text-align: center;
-  font-size: 11px;
-  margin-top: 10px;
+.tinyFont{
+  font-size: 10px;
+}
+.redTiny{
+  font-size: 10px;
+  color: red;
 }

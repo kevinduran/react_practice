@@ -18,7 +18,7 @@ export default function Bored() {
     
 if(loading){
     return (
-        <div class="bigBoy">
+        <div className="bigBoy">
             <button className="btn btn-top" onClick={fun}>i'm bored</button>
             <div className="boredOutput">
                 <h5>{output}</h5>        
@@ -27,7 +27,7 @@ if(loading){
     )
 }else{
     return (
-        <div class="bigBoy">
+        <div className="bigBoy">
             <button className="btn btn-top" onClick={fun}>i'm bored</button>
             <div className="boredOutput">
                 <Loading />          
