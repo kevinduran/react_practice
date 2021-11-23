@@ -9,7 +9,7 @@ export default function Birthday() {
                         return (
                             <div className="birthdayPerson" >
                                 <p>{key.name} - {key.age}<span className="tinyFont"> years old</span></p>
-                                <Countdown />
+                                <Countdown birthday={key.birthday}/>
                             </div>
                         )
                     })

@@ -3,13 +3,12 @@ import moment from 'moment';
 
 
 
-var today = moment(new Date().toLocaleDateString());
-
-
 export default function Countdown(birthday) {
+    var today = moment(new Date().toLocaleDateString());
+    var birthdayNext = moment(birthday.birthday);
     return (
         <div>
-             <p className="redTiny">birthday is today</p>
+             <p className="redTiny">birthday is {today.from(birthdayNext)}</p>
         </div>
     )
 }
