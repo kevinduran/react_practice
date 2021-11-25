@@ -18,7 +18,3 @@ export default function Birthday() {
     )
 }
 
-
-
-
-//to organize the data you must
