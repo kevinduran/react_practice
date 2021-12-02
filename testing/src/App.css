@@ -83,6 +83,7 @@ body{
 }
 .todoItem{
   padding: 2px 5px;
+  display: flex;
 }
 .btn{
   background-color: transparent;
