@@ -333,3 +333,36 @@ input:checked + .slider:before {
   font-size: 10px;
   color: red;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inputContainer{
+  display: flex;
+  position: relative;
+  top: -30px;
+}
+.inputContainer input{
+  background-color: transparent;
+  border: 1px solid green;
+  color: green;
+  width: 100px;
+}
+.inputContainer input:focus{
+  outline: none;
+}
+.outputItem{
+  display: flex;
+}
