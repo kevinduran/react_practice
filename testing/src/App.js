@@ -11,7 +11,6 @@ import Hell from './Hell'
 import Bored from './Bored/Bored'
 import Birthday from  './Birthday/Birthday'
 import Practice from './Practice'
-import Routing from './Routing/Routing'
 export default function App() {
  
 
@@ -28,7 +27,6 @@ export default function App() {
             <Bored/>
             <Birthday/>
             <Practice/>
-            <Routing/>
         </div>
     )
 
