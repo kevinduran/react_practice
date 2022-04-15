@@ -13,7 +13,7 @@ export default function CreateLife() {
         
     }
 
-    return (
+    return ( 
         <div className="bigBoy">
             <div className="personContainer">
                 <button 
